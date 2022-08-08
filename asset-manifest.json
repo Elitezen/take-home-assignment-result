@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/take-home-assignment-result/static/css/main.36744f2e.css",
-    "main.js": "/take-home-assignment-result/static/js/main.90322d26.js",
+    "main.css": "/take-home-assignment-result/static/css/main.0ae26d86.css",
+    "main.js": "/take-home-assignment-result/static/js/main.2eb3a63f.js",
     "static/media/shopping_cart.svg": "/take-home-assignment-result/static/media/shopping_cart.39666229bdedcd3ba9e0d1c6954e2ece.svg",
     "index.html": "/take-home-assignment-result/index.html",
     "static/media/delete.svg": "/take-home-assignment-result/static/media/delete.45d41f106637a0ec920a305cd2dfda1a.svg",
     "static/media/sort.svg": "/take-home-assignment-result/static/media/sort.25b7956d52ba53db59444a877fd3dfea.svg",
-    "main.36744f2e.css.map": "/take-home-assignment-result/static/css/main.36744f2e.css.map",
-    "main.90322d26.js.map": "/take-home-assignment-result/static/js/main.90322d26.js.map"
+    "main.0ae26d86.css.map": "/take-home-assignment-result/static/css/main.0ae26d86.css.map",
+    "main.2eb3a63f.js.map": "/take-home-assignment-result/static/js/main.2eb3a63f.js.map"
   },
   "entrypoints": [
-    "static/css/main.36744f2e.css",
-    "static/js/main.90322d26.js"
+    "static/css/main.0ae26d86.css",
+    "static/js/main.2eb3a63f.js"
   ]
 }
