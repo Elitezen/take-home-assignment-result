@@ -4,6 +4,13 @@
 // font-family: 'Roboto', sans-serif;
 // font-family: 'Source Sans Pro', sans-serif;
 
+@mixin flex(
+  $direction
+) {
+  display: flex;
+  flex-direction: $direction;
+}
+
 $mobile-breakpoints: (
   xs: 0,
   sm: 576px,

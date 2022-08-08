@@ -58,7 +58,7 @@ export default function ProductList({
               onClick={() => setDisplayUnstagedProducts(
                 generateUnstaged(sortUnstagedBy(unstagedProducts, 'price')
               ))}/>
-            <label htmlFor="sort"><p>Price</p></label>
+            <label htmlFor="price"><p>Price</p></label>
           </div>
           <div>
             <input 
@@ -68,7 +68,7 @@ export default function ProductList({
               onClick={() => setDisplayUnstagedProducts(
                 generateUnstaged(sortUnstagedBy(unstagedProducts, 'caption')
               ))}/>
-            <label htmlFor="sort"><p>Caption</p></label>
+            <label htmlFor="caption"><p>Caption</p></label>
           </div>
           <div>
             <input 
@@ -78,7 +78,7 @@ export default function ProductList({
               onClick={() => setDisplayUnstagedProducts(
                 generateUnstaged(sortUnstagedBy(unstagedProducts, 'brand')
               ))}/>
-            <label htmlFor="sort"><p>Brand</p></label>
+            <label htmlFor="brand"><p>Brand</p></label>
           </div>
         </div>
     </div>

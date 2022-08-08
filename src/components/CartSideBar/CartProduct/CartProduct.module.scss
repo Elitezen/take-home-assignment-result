@@ -1,12 +1,12 @@
+@import '../../../App.scss';
+
 .product {
-  display: flex;
-  flex-direction: column;
+  @include flex(column);
   padding: 1em 0;
   border-bottom: 2px solid #BBB;
 
   figure {
-    display: flex;
-    flex-direction: row;
+    @include flex(row);
     align-items: center;
     justify-content: space-between;
     width: 100%;
@@ -20,16 +20,15 @@
 
     figcaption p {
       max-width: 60ch;
+      font-size: 1.1rem;
     }
   }
 
   .bottomRow {
-    display: flex;
-    flex-direction: row;
+    @include flex(row);
 
     .orderData {
-      display: flex;
-      flex-direction: column;
+      @include flex(column);
       align-items: flex-start;
       
       width: 100%;

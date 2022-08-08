@@ -5,8 +5,7 @@
   text-align: center;
 
   .product {
-    display: flex;
-    flex-direction: column;
+    @include flex(column);
     justify-content: space-around;
 
     figure img {
@@ -40,8 +39,8 @@
       }
 
       .description {
-        font-size: 1.25rem;
         max-width: 60ch;
+        font-size: 1.25rem;
       }
 
       .price {
@@ -51,8 +50,7 @@
     }
 
     .inputRow {
-      display: flex;
-      flex-direction: row;
+      @include flex(row);
       align-items: center;
       justify-content: space-around;
       max-width: 400px;
