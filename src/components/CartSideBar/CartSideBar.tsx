@@ -20,7 +20,7 @@ export default function CartSideBar({
   return (
     <aside>
       <div className="container">
-        <h1>Cart</h1>
+        <h1>Shopping Cart</h1>
         {
           data.size > 0
           ? (<ul>
@@ -40,7 +40,7 @@ export default function CartSideBar({
           ? (
             <div className="footer">
               <p>Total: $<strong>{totalCost}</strong></p>
-              <button>
+              <button onClick={() => window.alert('Thank you for shopping!')}>
                 <p>Proceed To Checkout</p>
               </button>
             </div>
