@@ -49,6 +49,11 @@
       }
     }
 
+    a {
+     color: #000;
+     font-size: 1.25rem;
+    }
+
     .inputRow {
       @include flex(row);
       align-items: center;

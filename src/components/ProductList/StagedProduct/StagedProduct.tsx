@@ -44,9 +44,15 @@ export default function StagedProduct({
 
             {
               data.hasFullDescription 
-              ? <p 
-                className={styles.description} 
-                id="staged-product-description">{data.description}</p>
+              ? <>
+                  <p 
+                  className={styles.description} 
+                  id="staged-product-description">
+                    {data.description}
+                  </p>
+                  <br />
+                  <a href={data.productUrl} target="_blank">Visit Product Page</a>
+                </>
               : ''
             }
 
