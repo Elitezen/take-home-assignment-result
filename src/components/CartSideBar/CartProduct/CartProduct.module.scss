@@ -1,0 +1,56 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 0;
+  border-bottom: 2px solid #BBB;
+
+  figure {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    img {
+      width: 100%;
+      height: 100%;
+      max-width: 115px;
+      padding: 1em;
+    }
+
+    figcaption p {
+      max-width: 60ch;
+    }
+  }
+
+  .bottomRow {
+    display: flex;
+    flex-direction: row;
+
+    .orderData {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      
+      width: 100%;
+
+      p {
+        padding: 0.25em 0;
+        font-size: 1.15rem;
+        margin-left: 1em;
+      }
+    }
+
+    button {
+      width: 90px;
+      margin-right: 1em;
+      background-color: #000;
+      border: none;
+      border-radius: 3px;
+      
+      img {
+        filter: invert(1);
+      }
+    }
+  }
+}

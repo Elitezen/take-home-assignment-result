@@ -1,0 +1,92 @@
+@import '../../App.scss';
+
+main {
+  width: 100%;
+  height: fit-content;
+  padding: 1em 0.25em;
+  text-align: center;
+
+  .sort {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3em;
+
+    .sort-header { 
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      img {
+        width: 2em;
+      }
+
+      p {
+        margin-left: 0.75em;
+        font-size: 1.2rem;
+      }
+    }
+
+    .sort-options {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 50vw;
+      max-width: 450px;
+        
+      div {
+        margin: 2em 2em 0 2em;
+
+        label {
+
+          p {
+            margin-top: 0.5em;
+            font-size: 1rem;
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+
+  .unstaged-products-container {
+    padding: 5em 1em;
+
+    h2 {
+      font-size: 2rem;
+    }
+    
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+      list-style: none;
+
+      li {
+        margin: 2em;
+        border: 1px solid #BBB;
+        border-radius: 5px;
+      }
+    }
+  }
+
+  #empty-staged {
+    text-align: center;
+    padding: 1em;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: gray;
+  }
+
+  #empty-unstaged {
+    margin-top: 5em;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #BBB;
+  }
+}
